@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <meta
+      http-equiv="X-Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <link rel="stylesheet" href="style.css">
+    <script src="pomo.js"></script>
+    <title>Timey!</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="timer">
+        <div class="countdown"></div>
+        <div class="numbers">
+          <span class="minutes">25</span>
+          <span class="separator">:</span>
+          <span class="seconds">00</span>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

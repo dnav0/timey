@@ -1,0 +1,19 @@
+{
+  "name": "timey",
+  "version": "1.0.0",
+  "description": "Pomodoro app",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/dnav0/timey.git"
+  },
+  "author": "Dennis Navamani",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^24.1.3"
+  }
+}
